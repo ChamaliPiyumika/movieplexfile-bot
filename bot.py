@@ -4,7 +4,7 @@ import threading
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-# Render එක වෙනුවෙන් Port එක Open කර තබන Dummy Web Server එක
+# Render එක වෙනුවෙන් Port එක Open කර තබන Web Server එක
 class SimpleHandler(BaseHTTPRequestHandler):
     def do_GET(self):
         self.send_response(200)
@@ -20,10 +20,10 @@ server_thread = threading.Thread(target=run_server)
 server_thread.daemon = True
 server_thread.start()
 
-# Bot Token එක මෙතැනට දෙන්න
-BOT_TOKEN = "8845160703:AAHhVwnVxt_0rT4zGWvMDVdcZVFDoJ67cmE"
+# Bot Token
+BOT_TOKEN = "8845160703:AAGkTLzifU6rrNCSB9UxrAbF12v8uuzn76M"
 
-# නිවැරදි කරගත් File ID එක මෙතැනට දෙන්න
+# Movie Database
 MOVIES_DATABASE = {
     "movie_1": "BAACAgUAAxkBAAEvpXRqy75NXLGOfbyMOzzCWhxWsXc4gACtYIAAhLrUFZuE9y127JIUz0E",
 }
