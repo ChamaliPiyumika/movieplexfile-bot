@@ -26,8 +26,7 @@ BOT_TOKEN = "8845160703:AAH1HFUl4kbl7QMDQPXsEpp9xZ--n5zZqpk"
 
 # Movie Database
 MOVIES_DATABASE = {
-    "movie_1": ( "AgACAgUAAxkBAAEvqZFqzI6ZE7H6TNFbAb2O7f5psrtbNQAC1RBrGzx6aVZspil7_gZSdwEAAwIAA3kAAz0E"
-               ),
+    "movie_1":  "AgACAgUAAxkBAAEvqZFqzI6ZE7H6TNFbAb2O7f5psrtbNQAC1RBrGzx6aVZspil7_gZSdwEAAwIAA3kAAz0E",
 }
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
