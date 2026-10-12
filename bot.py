@@ -21,7 +21,7 @@ server_thread.daemon = True
 server_thread.start()
 
 # Bot Token එක මෙතැනට දෙන්න
-BOT_TOKEN = "8845160703:AAGkTLzifU6rrNCSB9UxrAbF12v8uuzn76M"
+BOT_TOKEN = "8845160703:AAHhVwnVxt_0rT4zGWvMDVdcZVFDoJ67cmE"
 
 # නිවැරදි කරගත් File ID එක මෙතැනට දෙන්න
 MOVIES_DATABASE = {
